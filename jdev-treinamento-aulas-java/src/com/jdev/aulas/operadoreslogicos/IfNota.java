@@ -12,6 +12,7 @@ public class IfNota {
 
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 
+		/*Condições logicas com if else*/
 		if (media >= 70) {
 			System.out.println("ALUNO APROVADO COM MEDIA " + media);
 		}
