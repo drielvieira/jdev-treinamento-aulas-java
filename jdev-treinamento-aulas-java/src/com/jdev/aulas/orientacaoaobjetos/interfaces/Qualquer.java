@@ -1,6 +1,6 @@
-package com.jdev.aulas.orientacaoaobjetos;
+package com.jdev.aulas.orientacaoaobjetos.interfaces;
 
-public class Aluno {
+public class Qualquer {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

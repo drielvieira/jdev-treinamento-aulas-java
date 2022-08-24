@@ -20,7 +20,7 @@ public class IfNota {
 			System.out.println("ALUNO EM RECUPERAÇÃO COM MEDIA " + media);
 		}*/ else {
 			System.out.println("ALUNO REPROVADO COM MEDIA " + media);
-		}
+		}/**/
 
 	}
 
