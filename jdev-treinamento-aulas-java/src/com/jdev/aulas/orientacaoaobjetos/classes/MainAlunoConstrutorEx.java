@@ -11,9 +11,6 @@ public class MainAlunoConstrutorEx {
 							/*REFERENCIA*/		/*INSTANCIA*/
 		AlunoConstrutorEx 	aluno1 =		 new AlunoConstrutorEx();
 		
-		
-	
-		
 		aluno1.setNome("ANTONIO PERERIA JUBARTI");
 		aluno1.setIdade(78);
 		aluno1.setDataNascimento("14/05/1888");
