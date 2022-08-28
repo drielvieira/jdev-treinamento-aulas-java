@@ -3,11 +3,9 @@ package com.jdev.aulas.tiposdedados;
 public class TipoInteiro {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		// Entendendo o tipo inteiro
-		// As referencias das variaveis criadas precisam fazer sentido
-		// Nada de ler mentes!! Em programacao nada de ler mentes.
+		// ENTENDENDO O TIPO INTEIRO
+		// AS REFERENCIAS DAS VARIAVEIS CRIADAS PRECISAM FAZER SENTIDO
 		int numeros = 15;
 		int quantidades = 78;
 		
