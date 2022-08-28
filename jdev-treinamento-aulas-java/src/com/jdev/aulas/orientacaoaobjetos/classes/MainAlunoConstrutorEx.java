@@ -9,7 +9,7 @@ public class MainAlunoConstrutorEx {
 		
 		/* AGORA TEMOS UM OBJETO REAL NA MEMORIA */
 							/*REFERENCIA*/		/*INSTANCIA*/
-		AlunoConstrutorEx 	aluno1 =		 new AlunoConstrutorEx();
+		AlunoConstrutorEx aluno1 = new AlunoConstrutorEx();
 		
 		aluno1.setNome("ANTONIO PERERIA JUBARTI");
 		aluno1.setIdade(78);
@@ -23,7 +23,7 @@ public class MainAlunoConstrutorEx {
 		
 		System.out.println("===================================================");
 		
-		AlunoConstrutorEx   aluno2 = 		new AlunoConstrutorEx();
+		AlunoConstrutorEx aluno2 = new AlunoConstrutorEx();
 		
 		aluno2.setNome("JOSE MATIAS ANGELO");
 		aluno2.setIdade(55);
@@ -38,7 +38,7 @@ public class MainAlunoConstrutorEx {
 		System.out.println("===================================================");
 		
 		
-		AlunoConstrutorEx   aluno3 = 		new AlunoConstrutorEx();
+		AlunoConstrutorEx aluno3 = new AlunoConstrutorEx();
 		
 		aluno3.setNome("ANTONIA PERERIA ");
 		aluno3.setIdade(66);
