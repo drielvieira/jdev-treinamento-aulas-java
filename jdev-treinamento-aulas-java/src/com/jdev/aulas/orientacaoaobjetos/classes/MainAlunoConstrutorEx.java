@@ -15,11 +15,16 @@ public class MainAlunoConstrutorEx {
 		aluno1.setIdade(78);
 		aluno1.setDataNascimento("14/05/1888");
 		aluno1.setNomeMae("JOANA APARECIDA");
+		aluno1.setNota1(70.8);
+		aluno1.setNota2(80.9);
+		aluno1.setNota3(60.5);
+		aluno1.setNota4(55.6);
 		
 		System.out.println("NOME: " + aluno1.getNome());
 		System.out.println("IDADE:" + aluno1.getIdade() + " ANOS");
 		System.out.println("DATA DE NASCIMENTO: " + aluno1.getDataNascimento());
 		System.out.println("NOME DA MÃE: " + aluno1.getNomeMae());
+		System.out.println("MÉDIA: " + aluno1.getMediaNota());
 		
 		System.out.println("===================================================");
 		
