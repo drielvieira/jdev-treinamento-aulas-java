@@ -18,13 +18,14 @@ public class MainAlunoConstrutorEx {
 		aluno1.setNota1(70.8);
 		aluno1.setNota2(80.9);
 		aluno1.setNota3(60.5);
-		aluno1.setNota4(55.6);
+		aluno1.setNota4(40.6);
 		
 		System.out.println("NOME: " + aluno1.getNome());
 		System.out.println("IDADE:" + aluno1.getIdade() + " ANOS");
 		System.out.println("DATA DE NASCIMENTO: " + aluno1.getDataNascimento());
 		System.out.println("NOME DA MÃE: " + aluno1.getNomeMae());
 		System.out.println("MÉDIA: " + aluno1.getMediaNota());
+		System.out.println("RESULTADO: " + (aluno1.getAlunoAprovado() ? "APROVADO" : "REPROVADO"));
 		
 		System.out.println("===================================================");
 		
