@@ -5,7 +5,9 @@ import javax.swing.JOptionPane;
 public class MainAlunoPessoa {
 
 	public static void main(String[] args) {
+		/*ENTRADA -> PROCESSAMENTO -> SAIDA */
 		
+		/*ENTRADA DE DADOS */
 		String nome = JOptionPane.showInputDialog("QUAL É O NOME DO ALUNO? ");
 		String idade = JOptionPane.showInputDialog("QUAL É A IDADE DO ALUNO? ");
 		String dataNascimento = JOptionPane.showInputDialog("QUAL É A DATA DE NASCIMENTO ? ");
@@ -15,8 +17,10 @@ public class MainAlunoPessoa {
 		String nota3 = JOptionPane.showInputDialog("TERCEIRA NOTA: ");
 		String nota4 = JOptionPane.showInputDialog("QUARTA NOTA: ");
 		
+		/*INICIALIZAÇÃO DO OBJETO */
 		AlunoPessoa alunoPessoa1 = new AlunoPessoa();
 		
+		/*SETANDO O OBJETO */
 		alunoPessoa1.setNome(nome);
 		alunoPessoa1.setIdade(Integer.valueOf(idade));
 		alunoPessoa1.setDataNascimento(dataNascimento);
@@ -26,6 +30,7 @@ public class MainAlunoPessoa {
 		alunoPessoa1.setNota3(Double.parseDouble(nota3));
 		alunoPessoa1.setNota4(Double.parseDouble(nota4));
 		
+		/*CHAMANDO DOS DADOS E MOSTRANDO A SAIDA*/
 		System.out.println("NOME DO ALUNO:" + alunoPessoa1.getNome());
 		System.out.println("IDADE DO ALUNO: "+ alunoPessoa1.getIdade() + " ANOS");
 		System.out.println("DATA DE NASCIMENTO: " + alunoPessoa1.getDataNascimento());
