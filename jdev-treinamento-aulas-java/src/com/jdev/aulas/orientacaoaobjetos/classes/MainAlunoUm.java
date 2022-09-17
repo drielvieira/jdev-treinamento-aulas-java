@@ -31,15 +31,6 @@ public class MainAlunoUm {
 		aluno.setIdade(Integer.valueOf(idade));
 		aluno.setDataNascimento(dataNascimento);
 			
-		aluno.getDisciplina().setNota1(Double.parseDouble(nota1));
-		aluno.getDisciplina().setNota2(Double.parseDouble(nota2));
-		aluno.getDisciplina().setNota3(Double.parseDouble(nota3));
-		aluno.getDisciplina().setNota4(Double.parseDouble(nota4)); 
-		
-		aluno.getDisciplina().setDisciplina1(disciplina1);
-		aluno.getDisciplina().setDisciplina2(disciplina2);
-		aluno.getDisciplina().setDisciplina3(disciplina3);
-		aluno.getDisciplina().setDisciplina4(disciplina4);
 				
 		System.out.println(aluno.toString()); /*DESCRIÇÃO DO OBJETO NA MEMORIA*/
 		System.out.println("MEDIA DO ALUNO: " + aluno.getMediaNota());
